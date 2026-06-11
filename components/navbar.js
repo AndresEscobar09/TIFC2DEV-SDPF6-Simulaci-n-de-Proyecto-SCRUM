@@ -27,7 +27,7 @@ export function renderNavbar() {
               <a class="nav-link" href="#">Quiénes Somos</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
