@@ -1,17 +1,36 @@
-#logo-nav{
+#logo-nav {
     width: 70px;
 }
 
-.navbar{
-    background: #273961  !important;
+.navbar {
+    background: #273961 !important;
 }
 
-.nav-link{
+.nav-link {
     color: #fff !important;
     border-radius: 20px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     background: #19294b !important;
-    
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ANCHO COMPLETO: Obliga al acordeón a ocupar el 100% de la pantalla */
+.w-full-screen {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Remueve bordes curvos laterales para un acabado limpio en las esquinas de la pantalla */
+.w-full-screen .accordion-item {
+    border-left: none;
+    border-right: none;
+    border-radius: 0 !important;
 }
