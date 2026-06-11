@@ -1,0 +1,37 @@
+export function renderNavbar() {
+  const navbar = document.querySelector("#navbar");
+
+  navbar.innerHTML = `
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+      <div class="container">
+        <img id="logo-nav" src="./../assets/icons/logo.svg" alt="logo">
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Quiénes Somos</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  `;
+}

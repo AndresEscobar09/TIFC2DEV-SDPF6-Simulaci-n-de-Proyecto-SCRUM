@@ -1,0 +1,17 @@
+#logo-nav{
+    width: 70px;
+}
+
+.navbar{
+    background: #273961  !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    background: #19294b !important;
+    
+}
