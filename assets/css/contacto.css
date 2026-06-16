@@ -3,83 +3,32 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
-#contacto {
-    background: #F5F1EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 64px;
-    padding: 64px 32px;
-    flex-wrap: wrap;
-}
 
-#contacto .contenedor-contacto {
-    flex: 0.6;
-    flex-direction: column;
-}
-
-#contacto .info {
-    min-width: 300px;
-}
-
-#contacto .titulo {
-    font-size: 40px;
-    margin-bottom: 16px;
+h2 {
     color: #19294b;
 }
 
-#contacto .texto {
-    color: #666;
-    line-height: 1.7;
+.text-primary,
+.btn-primary {
+    background-color: #19294b !important;
+    border-color: #19294b !important;
 }
 
-/* Formulario */
-#contacto .formulario {
-    flex: 1;
-    min-width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-
-    background: #efebeb;
-    padding: 32px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+.btn-outline-primary {
+    color: #19294b !important;
+    border-color: #19294b !important;
 }
 
-#contacto .input,
-#contacto .textarea {
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    outline: none;
+.btn-outline-primary:hover {
+    background-color: #19294b !important;
+    color: white !important;
 }
 
-#contacto .input:focus,
-#contacto .textarea:focus {
-    border-color: #19294b;
+#contacto {
+    background-color: #F5F1EB;
 }
 
-#contacto .boton {
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    background: #19294b;
-    color: white;
-    cursor: pointer;
-    transition: .3s;
-}
-
-#contacto .boton:hover {
+#contacto .btn:hover {
     transform: translateY(-2px);
-    background: #243c6b;
-}
-
-#contacto .contenedor-contacto-email {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    gap: 30px;
-
+    transition: .3s;
 }
