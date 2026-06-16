@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background: #F5F1EB;
+    font-family: Ubuntu, sans-serif;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 100vh;
+
+    padding: 50px;
+}
+
+.contenido h1 {
+    font-size: 70px;
+    color: #1E2A44;
+    margin-bottom: 20px;
+}
+
+.contenido h2 {
+    color: #7A8564;
+    font-size: 32px;
+}
+
+.contenido p {
+    color: #2B2B2B;
+    font-size: 22px;
+}
+
+.botones {
+    margin-top: 30px;
+}
+
+.boton_calendario {
+    background: #7A8564;
+    color: white;
+    border: none;
+
+    padding: 15px 30px;
+    border-radius: 8px;
+
+    margin-right: 15px;
+}
+
+.boton_grupos {
+    background: #1E2A44;
+    color: white;
+    border: none;
+
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.imagen1 {
+    width: 50%;
+    text-align: right;
+}
+
+.imagen1 img {
+    width: 100%;
+    max-width: 700px;
+
+    border-radius: 20px;
+}
+
+.partidos {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite saltar de línea */
+    justify-content: center;
+    gap: 20px;
+    /* Espacio entre tarjetas */
+    padding: 20px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    /*Alina el contenido de manera horizontal*/
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Esto hace el scroll suave por CSS */
+}
+
+/* Fuerza al acordeón a expandirse de borde a borde */
+.w-full-screen {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+}
