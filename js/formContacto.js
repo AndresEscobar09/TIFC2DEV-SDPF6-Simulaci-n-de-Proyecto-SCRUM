@@ -18,3 +18,20 @@ btnform.addEventListener('click', (e) => {
     form.reset()
 
 });
+
+const container = document.getElementById('message-container');
+
+const data = localStorage.getItem('message-contact');
+
+if (data) {
+    const message = JSON.parse(data);
+
+    container.innerHTML = `
+        <div class="card p-3 shadow-sm">
+            <h5>${message.name}</h5>
+            <p><strong>Email:</strong> ${message.email}</p>
+            <p><strong>Asunto:</strong> ${message.subject}</p>
+            <p><strong>Mensaje:</strong> ${message.message}</p>
+        </div>
+    `;
+}  
