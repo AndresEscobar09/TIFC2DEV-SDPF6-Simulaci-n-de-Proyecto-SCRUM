@@ -1,4 +1,8 @@
 /* Contenedor principal */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
 #contacto {
     background: #F5F1EB;
     display: flex;
